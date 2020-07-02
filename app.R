@@ -1,7 +1,7 @@
 library(shiny)
 library(htmltools)
 
-dataset <- diamonds
+
 ui <- fluidPage(
   
   fluidRow(
