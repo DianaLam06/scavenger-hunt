@@ -3,7 +3,8 @@ library(htmltools)
 
 
 ui <- fluidPage(
-  
+  titlePanel(h1("Create your own scavenger hunt")),
+  titlePanel(h2("keep track as your friends race to find the things you taked them with")),
   fluidRow(
     column(3,
            numericInput("num", label = h3("# items in hunt"), value = 5),
